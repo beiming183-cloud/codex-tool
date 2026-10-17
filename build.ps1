@@ -20,7 +20,7 @@ if($LASTEXITCODE -ne 0){throw 'Publish failed.'}
 $exe=Join-Path $publish 'CodexToolbox.exe'
 $testResult=Join-Path ([IO.Path]::GetTempPath()) 'CodexToolbox-selftest.json'
 if(Test-Path -LiteralPath $testResult){Remove-Item -LiteralPath $testResult}
-$test=Start-Process -FilePath $exe -ArgumentList @('--self-test','--data-dir',(Join-Path $release 'selftest-data')) -Wait -PassThru -WindowStyle Hidden
+$test=Start-Process -FilePath $exe -ArgumentList @('--self-test') -Wait -PassThru -WindowStyle Hidden
 $result=$null
 for($attempt=0;$attempt -lt 200;$attempt++){try{if(Test-Path -LiteralPath $testResult){$result=Get-Content -LiteralPath $testResult -Raw|ConvertFrom-Json;break}}catch{};Start-Sleep -Milliseconds 100}
 if($test.ExitCode -ne 0 -or -not $result -or -not $result.Passed){throw 'Self-test failed; release was not packaged.'}
