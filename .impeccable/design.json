@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T04:42:29.5890895Z",
+  "title": "Design System: Codex 工具箱",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "正文墨色",
+        "tonalRamp": [
+          "oklch(15.00% 0.00585 271.18)",
+          "oklch(26.43% 0.00585 271.18)",
+          "oklch(37.86% 0.00585 271.18)",
+          "oklch(49.29% 0.00585 271.18)",
+          "oklch(60.71% 0.00585 271.18)",
+          "oklch(72.14% 0.00585 271.18)",
+          "oklch(83.57% 0.00585 271.18)",
+          "oklch(95.00% 0.00585 271.18)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "辅助灰",
+        "tonalRamp": [
+          "oklch(15.00% 0.01018 264.48)",
+          "oklch(26.43% 0.01018 264.48)",
+          "oklch(37.86% 0.01018 264.48)",
+          "oklch(49.29% 0.01018 264.48)",
+          "oklch(60.71% 0.01018 264.48)",
+          "oklch(72.14% 0.01018 264.48)",
+          "oklch(83.57% 0.01018 264.48)",
+          "oklch(95.00% 0.01018 264.48)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "操作蓝",
+        "tonalRamp": [
+          "oklch(15.00% 0.19249 257.37)",
+          "oklch(26.43% 0.19249 257.37)",
+          "oklch(37.86% 0.19249 257.37)",
+          "oklch(49.29% 0.19249 257.37)",
+          "oklch(60.71% 0.19249 257.37)",
+          "oklch(72.14% 0.19249 257.37)",
+          "oklch(83.57% 0.19249 257.37)",
+          "oklch(95.00% 0.19249 257.37)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "深一阶操作蓝",
+        "tonalRamp": [
+          "oklch(15.00% 0.18033 257.21)",
+          "oklch(26.43% 0.18033 257.21)",
+          "oklch(37.86% 0.18033 257.21)",
+          "oklch(49.29% 0.18033 257.21)",
+          "oklch(60.71% 0.18033 257.21)",
+          "oklch(72.14% 0.18033 257.21)",
+          "oklch(83.57% 0.18033 257.21)",
+          "oklch(95.00% 0.18033 257.21)"
+        ]
+      },
+      "accent-pressed": {
+        "role": "primary",
+        "displayName": "按下操作蓝",
+        "tonalRamp": [
+          "oklch(15.00% 0.16657 257.01)",
+          "oklch(26.43% 0.16657 257.01)",
+          "oklch(37.86% 0.16657 257.01)",
+          "oklch(49.29% 0.16657 257.01)",
+          "oklch(60.71% 0.16657 257.01)",
+          "oklch(72.14% 0.16657 257.01)",
+          "oklch(83.57% 0.16657 257.01)",
+          "oklch(95.00% 0.16657 257.01)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "近白底面",
+        "tonalRamp": [
+          "oklch(15.00% 0.00265 286.35)",
+          "oklch(26.43% 0.00265 286.35)",
+          "oklch(37.86% 0.00265 286.35)",
+          "oklch(49.29% 0.00265 286.35)",
+          "oklch(60.71% 0.00265 286.35)",
+          "oklch(72.14% 0.00265 286.35)",
+          "oklch(83.57% 0.00265 286.35)",
+          "oklch(95.00% 0.00265 286.35)"
+        ]
+      },
+      "sidebar": {
+        "role": "neutral",
+        "displayName": "侧栏灰",
+        "tonalRamp": [
+          "oklch(15.00% 0.00534 286.30)",
+          "oklch(26.43% 0.00534 286.30)",
+          "oklch(37.86% 0.00534 286.30)",
+          "oklch(49.29% 0.00534 286.30)",
+          "oklch(60.71% 0.00534 286.30)",
+          "oklch(72.14% 0.00534 286.30)",
+          "oklch(83.57% 0.00534 286.30)",
+          "oklch(95.00% 0.00534 286.30)"
+        ]
+      },
+      "group": {
+        "role": "neutral",
+        "displayName": "分组白",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "button": {
+        "role": "neutral",
+        "displayName": "按钮灰",
+        "tonalRamp": [
+          "oklch(15.00% 0.00400 286.32)",
+          "oklch(26.43% 0.00400 286.32)",
+          "oklch(37.86% 0.00400 286.32)",
+          "oklch(49.29% 0.00400 286.32)",
+          "oklch(60.71% 0.00400 286.32)",
+          "oklch(72.14% 0.00400 286.32)",
+          "oklch(83.57% 0.00400 286.32)",
+          "oklch(95.00% 0.00400 286.32)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "悬停按钮灰",
+        "tonalRamp": [
+          "oklch(15.00% 0.00550 274.96)",
+          "oklch(26.43% 0.00550 274.96)",
+          "oklch(37.86% 0.00550 274.96)",
+          "oklch(49.29% 0.00550 274.96)",
+          "oklch(60.71% 0.00550 274.96)",
+          "oklch(72.14% 0.00550 274.96)",
+          "oklch(83.57% 0.00550 274.96)",
+          "oklch(95.00% 0.00550 274.96)"
+        ]
+      },
+      "button-pressed": {
+        "role": "neutral",
+        "displayName": "按下按钮灰",
+        "tonalRamp": [
+          "oklch(15.00% 0.00846 271.32)",
+          "oklch(26.43% 0.00846 271.32)",
+          "oklch(37.86% 0.00846 271.32)",
+          "oklch(49.29% 0.00846 271.32)",
+          "oklch(60.71% 0.00846 271.32)",
+          "oklch(72.14% 0.00846 271.32)",
+          "oklch(83.57% 0.00846 271.32)",
+          "oklch(95.00% 0.00846 271.32)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "字段边界",
+        "tonalRamp": [
+          "oklch(15.00% 0.00858 271.31)",
+          "oklch(26.43% 0.00858 271.31)",
+          "oklch(37.86% 0.00858 271.31)",
+          "oklch(49.29% 0.00858 271.31)",
+          "oklch(60.71% 0.00858 271.31)",
+          "oklch(72.14% 0.00858 271.31)",
+          "oklch(83.57% 0.00858 271.31)",
+          "oklch(95.00% 0.00858 271.31)"
+        ]
+      },
+      "text-selection": {
+        "role": "neutral",
+        "displayName": "浅蓝文字选区",
+        "tonalRamp": [
+          "oklch(15.00% 0.06543 254.17)",
+          "oklch(26.43% 0.06543 254.17)",
+          "oklch(37.86% 0.06543 254.17)",
+          "oklch(49.29% 0.06543 254.17)",
+          "oklch(60.71% 0.06543 254.17)",
+          "oklch(72.14% 0.06543 254.17)",
+          "oklch(83.57% 0.06543 254.17)",
+          "oklch(95.00% 0.06543 254.17)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "分隔灰",
+        "tonalRamp": [
+          "oklch(15.00% 0.00534 286.30)",
+          "oklch(26.43% 0.00534 286.30)",
+          "oklch(37.86% 0.00534 286.30)",
+          "oklch(49.29% 0.00534 286.30)",
+          "oklch(60.71% 0.00534 286.30)",
+          "oklch(72.14% 0.00534 286.30)",
+          "oklch(83.57% 0.00534 286.30)",
+          "oklch(95.00% 0.00534 286.30)"
+        ]
+      },
+      "success": {
+        "role": "status",
+        "displayName": "成功绿",
+        "tonalRamp": [
+          "oklch(15.00% 0.10359 153.68)",
+          "oklch(26.43% 0.10359 153.68)",
+          "oklch(37.86% 0.10359 153.68)",
+          "oklch(49.29% 0.10359 153.68)",
+          "oklch(60.71% 0.10359 153.68)",
+          "oklch(72.14% 0.10359 153.68)",
+          "oklch(83.57% 0.10359 153.68)",
+          "oklch(95.00% 0.10359 153.68)"
+        ]
+      },
+      "failure": {
+        "role": "status",
+        "displayName": "失败红",
+        "tonalRamp": [
+          "oklch(15.00% 0.15317 28.17)",
+          "oklch(26.43% 0.15317 28.17)",
+          "oklch(37.86% 0.15317 28.17)",
+          "oklch(49.29% 0.15317 28.17)",
+          "oklch(60.71% 0.15317 28.17)",
+          "oklch(72.14% 0.15317 28.17)",
+          "oklch(83.57% 0.15317 28.17)",
+          "oklch(95.00% 0.15317 28.17)"
+        ]
+      },
+      "table-header": {
+        "role": "neutral",
+        "displayName": "表头灰",
+        "tonalRamp": [
+          "oklch(15.00% 0.00415 271.37)",
+          "oklch(26.43% 0.00415 271.37)",
+          "oklch(37.86% 0.00415 271.37)",
+          "oklch(49.29% 0.00415 271.37)",
+          "oklch(60.71% 0.00415 271.37)",
+          "oklch(72.14% 0.00415 271.37)",
+          "oklch(83.57% 0.00415 271.37)",
+          "oklch(95.00% 0.00415 271.37)"
+        ]
+      },
+      "table-alternate": {
+        "role": "neutral",
+        "displayName": "交替行灰",
+        "tonalRamp": [
+          "oklch(15.00% 0.00287 264.54)",
+          "oklch(26.43% 0.00287 264.54)",
+          "oklch(37.86% 0.00287 264.54)",
+          "oklch(49.29% 0.00287 264.54)",
+          "oklch(60.71% 0.00287 264.54)",
+          "oklch(72.14% 0.00287 264.54)",
+          "oklch(83.57% 0.00287 264.54)",
+          "oklch(95.00% 0.00287 264.54)"
+        ]
+      },
+      "warning": {
+        "role": "secondary",
+        "displayName": "线路变化 / 校园候选提示",
+        "usage": "AutoUI.cs and UI.cs use #805812 for warnings without treating dynamic IP change as failure."
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "页面标题",
+        "purpose": "主页面标题；27 DIP 字号、41 DIP 行高。"
+      },
+      "dialog-title": {
+        "displayName": "子窗口标题",
+        "purpose": "线路编辑与结果窗口标题。"
+      },
+      "title": {
+        "displayName": "组标题",
+        "purpose": "设置组与线路名称。工具行另有 16 DIP。"
+      },
+      "body": {
+        "displayName": "正文",
+        "purpose": "窗口默认文字与侧栏名称。"
+      },
+      "label": {
+        "displayName": "标签",
+        "purpose": "字段标签、状态与说明。"
+      },
+      "hint": {
+        "displayName": "辅助说明",
+        "purpose": "路径、提示、反馈和时间。"
+      },
+      "ip": {
+        "displayName": "实测 IP",
+        "purpose": "Segoe UI 数字，SemiBold，独立 38 DIP 行高。"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "page-content-fade",
+        "value": "Opacity .86 → 1; 130ms; WPF ExponentialEase(EaseOut, Exponent=4)",
+        "purpose": "页面切换正文；只在 SystemParameters.ClientAreaAnimation 为 true 时执行。"
+      }
+    ],
+    "breakpoints": [],
+    "native": {
+      "platform": ".NET 8 WPF / Windows x64",
+      "unit": "DIP (1/96 inch)",
+      "dpiEvidence": "review/view-0 through view-5 and view-10 through view-13 metadata: 144 DPI, 150%; native client-area images, not full window frames.",
+      "sources": [
+        "Theme.xaml",
+        "UI.cs",
+        "Dialogs.cs"
+      ],
+      "focus": {
+        "button": "2 DIP accent border; CornerRadius 8; Margin -3; overlay; IsKeyboardFocused",
+        "field": "2 DIP accent border; CornerRadius 7; Margin -1; overlay; IsKeyboardFocused"
+      },
+      "disabledButton": "Only template Body has Opacity 0.45; focus overlay is separate.",
+      "previewNotice": "HTML/CSS snippets translate WPF visuals for the design panel. CSS px corresponds to unscaled DIP. Browser focus and table rendering approximate native behavior; Theme.xaml and native code remain authoritative.",
+      "rampNotice": "Eight-step OKLCH tonal ramps are generated only for palette inspection in the panel. They are not additional WPF tokens and do not prescribe new component colors.",
+      "unimplemented": [
+        "Dark theme",
+        "Mobile layout",
+        "Responsive sidebar collapse",
+        "Application-drawn shadows"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "主要按钮",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "主要检查或保存操作；悬停与按下改变背景，禁用只淡化按钮主体。",
+      "html": "<button class=\"ds-primary\">全部检查</button>",
+      "css": ".ds-primary{font:14px 'Microsoft YaHei UI',sans-serif;background:#2866DB;color:#FFFFFF;border:0;border-radius:7px;padding:7px 15px;min-height:22px;cursor:pointer}.ds-primary:hover{background:#005FC8}.ds-primary:active{background:#0056B5}.ds-primary:focus-visible{outline:2px solid #2866DB;outline-offset:1px}.ds-primary:disabled{opacity:.45;cursor:default}"
+    },
+    {
+      "name": "普通按钮",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "编辑、复制、取消和辅助操作，与主要操作共享尺寸与焦点结构。",
+      "html": "<button class=\"ds-secondary\">编辑</button>",
+      "css": ".ds-secondary{font:14px 'Microsoft YaHei UI',sans-serif;background:#F5F7FC;color:#202124;border:0;border-radius:7px;padding:7px 15px;min-height:22px;cursor:pointer}.ds-secondary:hover{background:#E9EFFA}.ds-secondary:active{background:#DFE8F8}.ds-secondary:focus-visible{outline:2px solid #2866DB;outline-offset:1px}.ds-secondary:disabled{opacity:.45;cursor:default}"
+    },
+    {
+      "name": "输入字段",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "标签在上方，白色原生编辑区域；焦点叠层不改变布局。浏览器预览仅模拟边界。",
+      "html": "<label class=\"ds-field-label\">代理地址<input class=\"ds-field\" value=\"http://127.0.0.1:7890\" /></label>",
+      "css": ".ds-field-label{display:block;font:13px/22px 'Microsoft YaHei UI',sans-serif;color:#62656B;padding-top:15px}.ds-field{display:block;margin-top:6px;background:#FFFFFF;color:#202124;font:14px 'Microsoft YaHei UI',sans-serif;border:1px solid #CCD7E7;border-radius:6px;padding:7px 10px;min-height:22px}.ds-field::selection{background:#B7D7FF}.ds-field:focus-visible{outline:2px solid #2866DB;outline-offset:-1px}.ds-field[readonly]{border-color:transparent}"
+    },
+    {
+      "name": "选中导航",
+      "kind": "nav",
+      "refersTo": "navigation-selected",
+      "description": "白色内嵌项，保持普通字重；SVG 是当前原生图标路径的直接转换。",
+      "html": "<nav class=\"ds-nav\"><button class=\"ds-nav-item\" aria-current=\"page\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M2,5 L20,5 M2,12 L20,12 M2,19 L20,19 M6,2 L6,8 M16,9 L16,15 M8,16 L8,22\"/></svg>首页</button></nav>",
+      "css": ".ds-nav{background:#E8EEF8;padding:12px}.ds-nav-item{display:flex;align-items:center;background:#FFFFFF;color:#202124;border:0;border-radius:7px;font:14px/22px 'Microsoft YaHei UI',sans-serif;padding:11px 8px 11px 12px;margin:2px 0 3px;cursor:pointer}.ds-nav-item svg{stroke:#62656B;stroke-width:1.65;fill:none;stroke-linecap:round;stroke-linejoin:round;margin-right:11px}.ds-nav-item:hover{background:#E9EFFA}.ds-nav-item:active{background:#DFE8F8}.ds-nav-item:focus-visible{outline:2px solid #2866DB;outline-offset:1px}"
+    },
+    {
+      "name": "设置分组",
+      "kind": "card",
+      "refersTo": "group",
+      "description": "白色平面组，不绘制阴影或边框；依靠内边距组织设置。",
+      "html": "<section class=\"ds-group\"><h3 class=\"ds-group-title\">校园网识别</h3><p class=\"ds-group-hint\">每行一个网络名，支持 * 和 ?。</p></section>",
+      "css": ".ds-group{background:#FFFFFF;color:#202124;border-radius:12px;padding:20px;margin-bottom:18px;font:14px/22px 'Microsoft YaHei UI',sans-serif}.ds-group-title{font-size:17px;font-weight:600;line-height:22px;margin:0}.ds-group-hint{font-size:12px;color:#62656B;line-height:22px;margin:8px 0 0}"
+    },
+    {
+      "name": "实测 IP 与状态",
+      "kind": "custom",
+      "refersTo": "profile-ip",
+      "description": "大号 Segoe UI IP 搭配独立的状态文案。示例地址采用文档用途保留地址，不来自个人配置。",
+      "html": "<section class=\"ds-profile\"><h3 class=\"ds-profile-name\">示例线路</h3><p class=\"ds-profile-proxy\">http://127.0.0.1:7890</p><span class=\"ds-profile-ip\" title=\"点击复制实测 IP\">192.0.2.1</span><p class=\"ds-profile-state\">出口符合预期</p><p class=\"ds-profile-detail\">仅验证此代理出口</p></section>",
+      "css": ".ds-profile{background:#FFFFFF;color:#202124;font:14px/22px 'Microsoft YaHei UI',sans-serif;padding:19px 23px}.ds-profile-name{font-size:17px;font-weight:600;line-height:22px;margin:0}.ds-profile-proxy{font-size:12px;color:#62656B;margin:4px 0 10px}.ds-profile-ip{font:600 29px/38px 'Segoe UI',sans-serif;cursor:pointer}.ds-profile-state{font-size:13px;color:#247043;margin:5px 0 0}.ds-profile-detail{font-size:12px;color:#62656B;margin:3px 0 0}"
+    },
+    {
+      "name": "结果表格",
+      "kind": "custom",
+      "description": "原生只读 DataGrid 的外观预览：轻表头、交替行、无网格线。原生选择、复制与列布局由 WPF 管理。",
+      "html": "<table class=\"ds-results\"><thead><tr><th>检查项</th><th>结果</th><th>状态</th></tr></thead><tbody><tr><td>示例线路</td><td>尚未检查</td><td>未知</td></tr><tr><td>本机直连</td><td>尚未检查</td><td>未知</td></tr></tbody></table>",
+      "css": ".ds-results{font:14px/22px 'Microsoft YaHei UI',sans-serif;background:#FFFFFF;color:#202124;border:0;border-collapse:collapse;text-align:left}.ds-results th{background:#EAF0F9;color:#62656B;font-weight:600;padding:12px 14px}.ds-results td{padding:11px 14px;white-space:normal}.ds-results tbody tr:nth-child(even){background:#F5F8FD}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Apple/macOS System Settings",
+    "overview": "参考用户提供的浅蓝灰 Cockpit 截图，保持安静、清楚、有秩序的设置界面。浅灰侧栏承担位置感，近白底面承托白色分组，蓝色提示可执行操作与键盘焦点。此方向由用户明确指定，不另造品牌隐喻，也不把熟悉的原生工具改成营销页面。\n\n实现使用 Windows WPF，保留 Windows 标题栏、窗口按钮、文件选择器和键盘约定。中文使用系统字体，实测 IP 通过更大的数字字体成为阅读重点；操作反馈紧邻当前任务，未知状态以文字说明。",
+    "keyCharacteristics": [
+      "浅灰侧栏、白色内嵌选中项、分组设置内容。",
+      "克制蓝色操作、独立文字状态、无装饰性阴影。",
+      "原生 DIP 尺寸与清晰中文，随 Windows DPI 缩放。",
+      "单次短淡入，遵守 Windows 客户区动画设置。"
+    ],
+    "rules": [
+      {
+        "name": "The Status Text Rule",
+        "body": "结果必须保留文字含义；蓝色检查中、绿色符合预期、红色失败不能代替可读结论。",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** 延续用户确认的 Apple/macOS System Settings 审美，同时保留 Windows 原生窗口与键盘习惯。",
+      "**Do** 使用 DIP 记录原生尺寸，并区分窗口外尺寸、客户区和截图设备像素。",
+      "**Do** 复用已有白色分组、灰色辅助文字、蓝色操作和显式状态文案。",
+      "**Do** 保留独立焦点叠层与系统动画偏好检查。"
+    ],
+    "donts": [
+      "**Don't** 添加仿 macOS 红黄绿窗口按钮、玻璃装饰、位图装饰或私有字体。",
+      "**Don't** 把悬停改为整控件透明度变化，或让焦点环引起布局移动。",
+      "**Don't** 用颜色取代状态文字，或把未知观测写成确定成功。",
+      "**Don't** 将面板用 HTML/CSS 预览、合成色阶或未实现的响应式规则写成 WPF 现状。"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+name: Build Windows release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '8.0.x'
+      - name: Validate version tag
+        shell: pwsh
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+          REF_TYPE: ${{ github.ref_type }}
+        run: |
+          [xml]$project=Get-Content ./CodexToolbox.csproj -Raw
+          $version=[string]$project.Project.PropertyGroup.Version
+          if($env:REF_TYPE -eq 'tag' -and $env:RELEASE_TAG -ne "v$version"){throw 'Tag and project version must match.'}
+          "TOOLBOX_VERSION=$version" >> $env:GITHUB_ENV
+      - name: Build, test and package
+        shell: pwsh
+        run: ./build.ps1
+      - name: Publish release assets
+        if: github.ref_type == 'tag'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          $dir="dist/release/$env:TOOLBOX_VERSION"
+          $assets=@("$dir/CodexToolbox-$env:TOOLBOX_VERSION-win-x64.zip","$dir/CodexToolbox-$env:TOOLBOX_VERSION-source.zip","$dir/SHA256SUMS.txt")
+          gh release view $env:RELEASE_TAG --json tagName 2>$null
+          if($LASTEXITCODE -eq 0){throw 'Release already exists; do not overwrite published update assets.'}
+          gh release create $env:RELEASE_TAG @assets --verify-tag --title "Codex 工具箱 $env:TOOLBOX_VERSION" --notes-file CHANGELOG.md
+          if($LASTEXITCODE -ne 0){throw 'Release upload failed.'}

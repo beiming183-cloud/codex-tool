@@ -1,0 +1,15 @@
+bin/
+obj/
+dist/
+*.user
+*.suo
+settings*.json*
+route-observations.json*
+auth.json
+guard-draft.json
+.impeccable/review/
+.impeccable/config.local.json
+update-check.json*
+update-result.json*
+updates/
+*.log
